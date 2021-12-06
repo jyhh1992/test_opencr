@@ -1,0 +1,14 @@
+void setup() {
+Serial.begin(9600);
+}
+
+int first = 33;
+int second = 34;
+int third = 35;
+
+void loop(){
+Serial.println("  ");
+Serial.write(first);
+Serial.write(second);
+Serial.write(third);
+}

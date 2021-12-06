@@ -1,0 +1,18 @@
+void setup(){
+pinMode(LED_BUTLIN, OUTPUT);
+}
+
+vodi loop(){
+digitalWrite(LED_BUILTIN, HIGH);
+delay(1000);
+second
+digitalWrite(LED_BUILTIN, LOW);
+delay(1000);
+}
+
+void main(){
+setup();
+while(true){
+loop();
+}
+}
